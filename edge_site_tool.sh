@@ -3,7 +3,7 @@ set -u
 
 CONFIG_FILE="$HOME/.edge_site_tool.conf"
 MERGE_SCRIPT_NAME="merge_site_inventory.py"
-REMOTE_USER="pinnacle"
+REMOTE_USER="$USER"
 
 # Colors
 GREEN='\033[0;32m'
